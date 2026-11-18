@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+video{
+    width: 100%;
+}
+#hero{
+    height: 100%;
+}
+.card {
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Common image size for Service section */
+#service .card-img-top {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
